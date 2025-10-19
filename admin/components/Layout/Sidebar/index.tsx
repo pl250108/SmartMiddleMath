@@ -195,7 +195,9 @@ const RenderMenu = React.memo(() => {
                   </ListItemIcon>
                 )}
                 <ListItemText
-                  className={isItemActive ? "text-primary-main" : "text-[#637381]"}
+                  className={
+                    isItemActive ? "text-primary-main" : "text-[#637381]"
+                  }
                   primary={item.title}
                 />
                 {item.children &&
