@@ -1,202 +1,116 @@
-# 🌍 Code-Planet – Environmental Education Platform
+# 📚 **Toán cấp 2 – Nền tảng học tập các kiến thức liên quan đến toán học**
 
-[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+## 📌 **Giới thiệu tổng quan**
 
-## 📱 Product Overview
+Toán cấp 2 là nền tảng học tập toán học toàn diện dành cho học sinh cấp 2, tập trung vào việc phát triển **kiến thức toán học cơ bản**, **tư duy logic**, **kỹ năng giải quyết vấn đề** và **ứng dụng toán học trong thực tế** thông qua các khóa học, bài tập và mini game tương tác.
 
-Code-Planet is a comprehensive environmental education platform designed to revolutionize how people learn about environmental protection and sustainability. The platform seamlessly connects learners, educators, and administrators within a unified digital ecosystem, making environmental education engaging, interactive, and accessible to everyone.
+> 🚀 "Học toán từ cơ bản đến nâng cao – Xây dựng nền tảng toán học vững chắc!"
 
-Whether you're an individual looking to expand your environmental knowledge or an educator seeking to create impactful learning content, Code-Planet provides the tools and gamification needed to deliver modern, effective environmental education.
-
-## 🎯 Objectives & Core Purpose
-
-### Primary Mission
-To bridge the gap between environmental awareness and practical action through an integrated platform that makes environmental education engaging, accessible, and measurable through gamification and interactive learning.
-
-### Key Goals
-- **Educational Impact**: Provide comprehensive environmental education through structured lessons and interactive content
-- **Engagement**: Gamify learning with points, rankings, and achievements to motivate continuous learning
-- **Accessibility**: Make environmental education available to everyone through mobile-first design
-- **Progress Tracking**: Enable users to monitor their learning journey and environmental knowledge growth
-
-## ✨ Key Features
-
-### 🔐 Multi-Role Authentication & Security
-- Secure login system for users and administrators
-- Role-based access control (RBAC) with different permission levels
-- JWT authentication with secure password encryption
-- User profile management with avatar customization
-
-### 👤 Comprehensive User Management
-- **User Profiles**: Complete learning profiles with progress tracking and achievements
-- **Admin Management**: Content creation and user management capabilities
-- **Avatar System**: Customizable user avatars and profile pictures
-- **Progress Tracking**: Detailed learning analytics and performance metrics
-
-### 📚 Advanced Learning Management System
-- **Category Management**: Organized environmental topics (Bảo vệ môi trường, Đa dạng sinh học, etc.)
-- **Lesson Creation**: Rich content editor with CKEditor for comprehensive lesson materials
-- **Mini Games**: Interactive quizzes and games for lesson reinforcement
-- **Content Structure**: Lessons with descriptions, content, and practice games
-
-### 🎮 Gamification & Assessment System
-- **Multi-Level Quizzes**: Basic, Intermediate, and Advanced difficulty levels
-- **Question Banks**: Comprehensive question management across all categories
-- **Scoring System**: Point accumulation for lessons and quiz completions
-- **Ranking System**: User leaderboards and personal achievement tracking
-
-### 🏆 Achievement & Ranking System
-- **Point System**: Earn points through lesson completion and quiz performance
-- **Personal Rankings**: Individual progress tracking and skill assessment
-- **Achievement Badges**: Recognition for learning milestones and environmental knowledge
-- **Activity Logs**: Green blog activities categorized by environmental topics
-
-### 📊 Analytics & Progress Tracking
-- **Learning Analytics**: Track progress across different environmental categories
-- **Performance Metrics**: Quiz scores, lesson completion rates, and time spent learning
-
-## 🛠️ Technologies Used
-
-### Mobile Application (React Native + Expo)
-- **React Native** with Expo for cross-platform mobile development
-- **TypeScript** for type-safe development
-- **NativeWind** for utility-first styling with Tailwind CSS
-- **Redux Toolkit** for state management
-- **React Query** for efficient data fetching and caching
-- **React Navigation** for seamless navigation experience
-
-### Web Admin Panel (Next.js)
-- **Next.js** with TypeScript for robust web application development
-- **Tailwind CSS** for responsive, customizable UI design
-- **Ant Design** for professional admin interface components
-- **Redux Toolkit** for state management
-- **React Query** for API communication and caching
-- **CKEditor** for rich content creation and editing
-
-### Development & Build Tools
-- **TypeScript** for type safety across the entire stack
-- **ESLint & Prettier** for code quality and formatting
-- **Jest** for testing framework
-- **Metro** for React Native bundling
-- **Babel** for JavaScript compilation
-
-## 🚀 Installation Guide
-
-### Prerequisites
-- **Node.js** >= 18.0.0
-- **npm** or **yarn** package manager
-- **Expo CLI** for mobile development
-- **Git** for version control
-
-### Step-by-Step Installation
-
-#### 1. Clone the Repository
-```bash
-git clone https://github.com/JerryTheCoder0310/CodePlanet
-cd code-planet
-```
-
-#### 2. Mobile App Setup (React Native + Expo)
-```bash
-cd apps
-npm install
-# or
-yarn install
-
-# Start the development server
-npm start
-# or
-yarn start
-```
-
-#### 3. Admin Panel Setup (Next.js)
-```bash
-cd admin
-npm install
-
-# Copy environment file
-cp .env.development .env.development.local
-
-# Start development server
-npm run dev
-# or
-yarn dev
-```
-
-#### 4. Configuration
-```env
-# Database Configuration
-DATABASE_URL=your_database_connection_string
-
-# API Configuration
-API_BASE_URL=your_api_base_url
-
-# Authentication
-JWT_SECRET=your_jwt_secret_key
-
-# File Upload
-UPLOAD_MAX_SIZE=10485760
-ALLOWED_FILE_TYPES=image/jpeg,image/png,image/gif
-```
-
-## 📋 System Architecture
-
-### User Roles & Permissions
-- **Admin**: Full system access, content management, user management
-- **User**: Access to learning content, quizzes, progress tracking, and rankings
-
-### Content Structure
-- **Categories**: Environmental topics (Bảo vệ môi trường, Đa dạng sinh học, Giới thiệu môi trường, etc.)
-- **Lessons**: Individual learning units with content, descriptions, and mini-games
-- **Quizzes**: Multi-level assessments (Basic, Intermediate, Advanced)
-- **Activities**: Green blog activities and environmental engagement
-
-## 🔒 Security Features
-
-- **Data Encryption**: Secure handling of user data and progress information
-- **Access Control**: Role-based permissions for different user types
-- **Authentication**: Secure login and session management
-- **Input Validation**: Protection against malicious input and data corruption
-- **Privacy Protection**: User data privacy and GDPR compliance considerations
-
-## 📈 Future Roadmap
-
-### Phase 1 (Current)
-- ✅ Core learning management system
-- ✅ Basic quiz and assessment functionality
-- ✅ User progress tracking and rankings
-
-### Phase 2 (Next 6 months)
-- 🔄 Advanced analytics dashboard
-- 🔄 Social learning features
-- 🔄 Offline learning capabilities
-
-### Phase 3 (Next 12 months)
-- 📅 AI-powered personalized learning paths
-- 📅 AR/VR environmental simulations
-- 📅 Community challenges and competitions
-
-## 🌱 Environmental Impact
-
-Code-Planet is committed to promoting environmental awareness and action through education. By making environmental knowledge accessible and engaging, we aim to:
-
-- **Educate** millions of users about environmental protection
-- **Inspire** positive environmental action and lifestyle changes
-- **Connect** learners with practical environmental solutions
-- **Measure** the impact of environmental education on real-world behavior
-
-## 🤝 Contributing
-We welcome contributions from the community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get started.
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## [LINK-DEMO](https://drive.google.com/file/d/1XeKlXC_XoceFiowYeLzFhIE-aWIngYAT/view?usp=sharing)
 
 ---
-**Code-Planet** - Empowering environmental education through technology 🌍✨
 
-*"Học hỏi, hành động, bảo vệ hành tinh xanh!"*
+## 🎯 **Mục tiêu chính**
+
+- Phát triển kiến thức toán học cấp 2 từ cơ bản đến nâng cao.
+- Rèn luyện tư duy logic và kỹ năng giải quyết vấn đề toán học.
+- Học cách áp dụng các công thức và phương pháp toán học.
+- Xây dựng nền tảng vững chắc cho việc học toán ở các cấp cao hơn.
+
+---
+
+## 🧩 **Tính năng chính**
+
+### ✅ 1. **Hệ thống tài khoản & bảo mật**
+
+![Ảnh minh họa bài học](https://res.cloudinary.com/ds1ioi3cc/image/upload/v1761226578/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-10-23_lu%CC%81c_20.35.56_bbfsgh.png)
+![Ảnh minh họa bài học](https://res.cloudinary.com/ds1ioi3cc/image/upload/v1761226614/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-10-23_lu%CC%81c_20.36.38_sd3lfe.png)
+
+- Đăng ký, đăng nhập tài khoản với email/mật khẩu.
+- Quên mật khẩu và đặt lại mật khẩu mới.
+- Cập nhật thông tin avatar
+---
+
+### 📚 2. **Thư viện khóa học**
+
+![Ảnh minh họa bài học](https://res.cloudinary.com/ds1ioi3cc/image/upload/v1761226806/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-10-23_lu%CC%81c_20.39.35_zizwto.png)
+
+- **Danh mục khóa học**: Phân loại theo chủ đề (Số học & Biểu thức đại số, Hình học phẳng, Phương trình & bất phương trình, Toán tư duy và logic).
+- **Chi tiết khóa học**: Mô tả, yêu cầu, kết quả học tập về toán.
+- **Nội dung bài học**: Tài liệu, bài tập thực hành với ví dụ thực tế.
+- **Theo dõi tiến trình**: Hiển thị trạng thái hoàn thành khóa học và điểm số.
+
+---
+
+### 🎮 3. **Trắc nghiệm tương tác với 3 cấp độ Cơ bản, Trung cấp, Nâng cao**
+![Ảnh minh họa game tình huống](https://res.cloudinary.com/ds1ioi3cc/image/upload/v1761226866/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-10-23_lu%CC%81c_20.40.50_l7ky1v.png)
+- Hoàn thiện các câu hỏi theo cấp độ để nhận về điểm số.
+- Theo dõi số điểm và unlock các cấp độ khi hoàn thành các câu hỏi phía trước.
+
+---
+
+### 👨‍🎓 4. **Mini game**
+![Ảnh minh họa game tình huống](https://res.cloudinary.com/ds1ioi3cc/image/upload/v1761226912/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-10-23_lu%CC%81c_20.41.34_ubgmjm.png)
+- **Tình huống toán học**: Tình huống toán học thực tế tương tác với Bot App.
+- **Memory Matching Game**: Thực hiện tìm các cấp phép tính đúng, lật card để tìm theo dõi số lượt chơi và cặp thẻ phù hợp.
+- **Game giải toán**: Giải các bài toán thực tế bằng cách nhập đáp án đúng.
+- **Quick Math Game**: Giải tất cả đúng tất cả câu hỏi trước khi hết thời gian.
+- **Dãy số toán học**: Tìm quy luật của dãy số và điền vào chỗ còn trống.
+
+---
+
+### 🏆 5. **Hệ thống thành tích & xếp hạng**
+
+![Ảnh minh họa game tình huống](https://res.cloudinary.com/ds1ioi3cc/image/upload/v1761227012/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-10-23_lu%CC%81c_20.43.13_u6oyed.png)
+
+- **Leaderboard**: Bảng xếp hạng theo tổng điểm kiến thức toán học.
+- **Hệ thống điểm**: Tích lũy điểm từ các thử thách và khóa học toán.
+- **Lịch sử học tập**: Theo dõi trạng thái và kết quả học toán.
+- **Huy hiệu toán học**: "Học viên", "Chiến binh toán", "Nhà vô địch", "Chuyên gia toán học".
+
+---
+
+### 🔧 6. **Hệ thống quản trị (Admin)**
+![Ảnh minh họa game tình huống](https://res.cloudinary.com/ds1ioi3cc/image/upload/v1761227074/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2025-10-23_lu%CC%81c_20.44.16_igwbke.png)
+- **Dashboard quản trị**: Thống kê tổng quan hệ thống học toán.
+- **Quản lý danh mục**: Phân loại khóa học toán và thử thách toán học.
+- **Quản lý khóa học**: Tạo, sửa, xóa khóa học toán và bài học toán.
+- **Quản lý bộ câu hỏi trắc nghiệm**: Tạo các loại challenge toán học khác nhau.
+
+---
+
+## ⚙️ **Yêu cầu kỹ thuật**
+
+| Hạng mục       | Công nghệ sử dụng     |
+|----------------|------------------------|
+| Frontend       | Next.js 14, React 18, TypeScript, ReactNative |
+| UI Framework   | Tailwind CSS |
+| State Management | Zustand, React Query |
+| Backend        | NestJS, Prisma ORM |
+| Database       | PostgreSQL            |
+| Authentication | JWT, NextAuth.js |
+| File Storage   | Cloudinary            |
+
+---
+
+## 🚀 **Tính năng nổi bật**
+
+- **Học tập tương tác**: Kết hợp quiz, và thử thách toán học thực tế
+- **Phân tích tiến trình**: Theo dõi sự phát triển kiến thức toán học của học sinh
+- **Giao diện thân thiện**: Thiết kế dễ sử dụng cho học sinh cấp 2
+- **Hệ thống bảo mật**: Đảm bảo an toàn thông tin cá nhân và tiến trình học tập
+- **Responsive Design**: Hoạt động mượt mà trên mọi thiết bị
+- **Nội dung cập nhật**: Cập nhật thường xuyên theo chương trình học
+- **Bài tập mô phỏng**: Thực hành giải toán với các tình huống thực tế
+
+---
+
+## 📱 **Đối tượng sử dụng**
+
+- **Học sinh cấp 2**: Học và củng cố kiến thức toán học cơ bản
+- **Phụ huynh**: Hỗ trợ con em học tập và theo dõi tiến trình
+- **Giáo viên**: Sử dụng làm công cụ hỗ trợ giảng dạy toán học
+- **Gia sư**: Tạo bài học và bài tập phù hợp cho học sinh
+- **Học sinh tự học**: Ôn tập và nâng cao kiến thức toán học
+- **Trung tâm giáo dục**: Tích hợp vào chương trình giảng dạy
+- **Học sinh chuẩn bị thi**: Luyện tập cho các kỳ thi quan trọng
